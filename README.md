@@ -55,11 +55,11 @@ Ainda no terminal, instale as dependencias do NPM:
 
 ### Insert
 >    database 
-
+>
 >        .insert(dados)          // inserir dados
-
+>
 >        .into('filmes')         // na tabela filmes
-
+>
 >        .then( dados => {       // se der certo
 >            
 >            // retorna o ID do que foi inserido
