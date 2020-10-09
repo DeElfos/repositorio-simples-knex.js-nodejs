@@ -1,13 +1,9 @@
-udr# repositorio simples knex.js nodejs
- 
 ### Tópicos 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
-
-:small_blue_diamond: [CRUD Simples](#crud-simples)
-
+:small_blue_diamond: [Andamento do projeto](#andamento-do-projeto)
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
-
+:small_blue_diamond: [CRUD Simples](#crud-simples)
 :small_blue_diamond: [Licença](#licença)
 
 ## Descrição do projeto 
@@ -17,15 +13,6 @@ udr# repositorio simples knex.js nodejs
 
   Link para documentação: http://knexjs.org/#Installation-node
 </p>
-
-
-## Como rodar a aplicação :arrow_forward:
-
-No terminal, clone o projeto: 
-
-```
-git clone https://github.com/DeElfos/repositorio-simples-knex.js-nodejs.git
-```
 
 ## Andamento do projeto
 
@@ -47,6 +34,20 @@ git clone https://github.com/DeElfos/repositorio-simples-knex.js-nodejs.git
 - [ ] 1 para M
 - [ ] M para M
 
+
+
+## Como rodar a aplicação :arrow_forward:
+
+No terminal, clone o projeto: 
+
+```
+git clone https://github.com/DeElfos/repositorio-simples-knex.js-nodejs.git
+```
+Ainda no terminal, instale as dependencias do NPM:
+
+```
+npm install
+```
 
 
 ## CRUD Simples
@@ -94,4 +95,4 @@ git clone https://github.com/DeElfos/repositorio-simples-knex.js-nodejs.git
 
 The [MIT License]() (MIT)
 
-Copyright :copyright: Ano - Titulo do Projeto
+Copyright :copyright: 2020 - Elphen Sistemas - Estudo de caso - Knex.js
