@@ -1,9 +1,13 @@
 ### Tópicos 
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
+
 :small_blue_diamond: [Andamento do projeto](#andamento-do-projeto)
+
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
+
 :small_blue_diamond: [CRUD Simples](#crud-simples)
+
 :small_blue_diamond: [Licença](#licença)
 
 ## Descrição do projeto 
@@ -41,12 +45,12 @@
 No terminal, clone o projeto: 
 
 ```
-git clone https://github.com/DeElfos/repositorio-simples-knex.js-nodejs.git
+ > git clone https://github.com/DeElfos/repositorio-simples-knex.js-nodejs.git
 ```
 Ainda no terminal, instale as dependencias do NPM:
 
 ```
-npm install
+ > npm install
 ```
 
 
