@@ -54,6 +54,8 @@ Ainda no terminal, instale as dependencias do NPM:
 ## CRUD Simples
 
 ### Insert
+
+>
 >    database 
 >
 >        .insert(dados)          // inserir dados
