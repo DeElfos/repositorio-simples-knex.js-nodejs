@@ -41,7 +41,7 @@ database
  
  var dados = [
   {
-      nome: "Song of the Sea",
+      nome: "Song of the Sea 2",
       ano: '2014'
   },
   {
@@ -80,6 +80,6 @@ database
 var query = database 
     .insert(dados) // inserir dados
     .into('filmes') // na tabela filmes
-    
+
 console.log(query.toQuery())
     

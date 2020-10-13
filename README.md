@@ -1,4 +1,4 @@
-### Tópicos 
+# Tópicos
 
 :small_blue_diamond: [Descrição do projeto](#descrição-do-projeto)
 
@@ -6,11 +6,13 @@
 
 :small_blue_diamond: [Como rodar a aplicação](#como-rodar-a-aplicação-arrow_forward)
 
-:small_blue_diamond: [CRUD Simples](#crud-simples)
 
 :small_blue_diamond: [Licença](#licença)
 
-## Descrição do projeto 
+<br />
+<br />
+
+# Descrição do projeto 
 
 <p align="justify">
   Um projeto Simples mostrando as principais funcionalidades do framework "knex.js"
@@ -18,12 +20,35 @@
   Link para documentação: http://knexjs.org/#Installation-node
 </p>
 
-## Andamento do projeto
+<br/>
+<br/>
 
-### Migrations
-...
+# Menu de referência :
 
-### Métodos
+## Rodando testes: 
+:small_blue_diamond: [Insert](###realizar-insert)
+
+:small_blue_diamond: [Select](###realizar-select)
+
+:small_blue_diamond: [Where](###realizar-where)
+
+:small_blue_diamond: [Por Extenso (sql sem o builder)](###realizar-por-extenso-(sql-sem-o-builder))
+
+
+<br/>
+<br/>
+
+# Andamento do projeto (o que está incluso nos testes)
+
+## Migrations
+- [] O que são?
+- [] Configurando
+- [] Delete
+- [] Criando uma migration
+- [] Rodando uma migration
+- [] "voltando" uma migration (Rollback)
+
+## Métodos
 - [X] Delete
 - [X] Insert
 - [X] Select
@@ -33,14 +58,17 @@
 - [ ] Join
 - [ ] Join com where
 
-### Relacionamentos
+## Relacionamentos
 - [ ] 1 para 1
 - [ ] 1 para M
 - [ ] M para M
 
 
 
-## Como rodar a aplicação :arrow_forward:
+<br/>
+<br/>
+
+# Como rodar a aplicação :arrow_forward:
 
 No terminal, clone o projeto: 
 
@@ -50,50 +78,62 @@ Ainda no terminal, instale as dependencias do NPM:
 
 > npm install
 
+Ainda no terminal, instale o knex globalmente ( para facilitar o gerenciamento do pacote e poder seguir os exemplos ) :
+> npm install knex -g
 
-## CRUD Simples
 
-### Insert
+<br/>
+<br/>
+<br/>
 
-```
-database 
-    .insert(dados)          // inserir dados
-    .into('filmes')         // na tabela filmes
-    .then( dados => {       // se der certo
-        
-        // retorna o ID do que foi inserido
-        // Se retornar maior que zero
-        // significa que foi inserido com sucesso
-        console.log('dados => ', dados)
-    })
-    .catch( err => {        // se der errado
-        console.log(err)
-    })
-```
+# Como rodar os testes
 
-## Como rodar os testes
-
-### Insert
+## Realizar Insert
 ```
     node crud/insert
 ```
 
-### Select
+## Realizar Select
 ```
     node crud/select
 ```
 
-### Where
+## Realizar Where
 ```
      node crud/where 
 ```
 
-### Por Extenso (sql sem o builder)
+## Realizar Por Extenso (sql sem o builder)
 ```
      node crud/porExtenso 
 ```
 
-## Licença 
+
+<br/>
+<br/>
+<br/>
+
+# Explicações
+
+## O que são migrations?
+
+>
+
+<br />
+
+## Configurando
+
+Caso seu projeto não possua um "knexfile.js" existente, rode o seguinte comando para criar uma amostra de arquivo para configurações de banco de dados ( meu projeto já possui, basta configurar com os seus dados ) :
+
+> knex init
+
+Este comando irá gerar um arquivo de amostra, para facilitar os testes, eu comentei os métodos e deixei apenas o development (desenvolvimento), porém é possível configurar diferentes bancos para os modos de "produção", "desenvolvimento" e 
+
+<br/>
+<br/>
+<br/>
+
+# Licença 
 
 The [MIT License]() (MIT)
 
